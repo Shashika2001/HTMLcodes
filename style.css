@@ -1,0 +1,42 @@
+
+.container {
+
+    box-shadow: 0 0 30px #36d5b8;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 3rem;
+    border-radius: 15px;
+}
+body{ background-color: rgb(16, 4, 4);}
+h1{
+position: relative;
+display: contents;
+color:#626b5b;
+font-size: 5rem;
+font-weight: 100;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+span {
+    user-select: none;
+    padding-bottom: 10px;
+    animation: anim 2.8s ease-out infinite;
+    animation-delay: anim 2.8s ease-out infinite ;
+    animation-delay: var(--d) ;
+}
+@keyframes anim {
+    0%,
+    90%{
+        color:#626b5b;
+        text-shadow: none;
+        border-bottom: 1px solid transparent;
+    }
+    100%{
+        color:aliceblue;
+        border-bottom: 3px solid darkred;
+        
+        text-shadow: 1px 1px 35px rgb(25, 180, 223);
+
+    }
+}
